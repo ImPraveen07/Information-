@@ -1,30 +1,25 @@
-
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.container{
-height: 100vh;
-width: 100%;
-background:linear-gradient(45deg,red,blue,yellow,violet , white,orange,green) ;
-background-size: 300% 300%;
-animation: color 5s ease infinite;
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, red, blue, yellow, violet, white, orange, green);
+    background-size: 300% 300%;
+    animation: color 5s ease infinite;
 }
-@keyframes color{
-    0%{
+@keyframes color {
+    0% {
         background-position: 0 50%;
     }
-    50%{
+    50% {
         background-position: 100% 20%;
     }
-    0%{
+    100% {  /* Changed from 0% to 100% */
         background-position: 0 50%;
     }
 }
-.main{
-    
-     
-    
+.main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
